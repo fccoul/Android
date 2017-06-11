@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FCOApplication_Back</string>
+    <string name="button_next">Next Page</string>
+    <string name="button_red">Red Pill</string>
+    <string name="button_blue">Blue Pill</string>
+    <string name="hello_world">Hello Kpleus</string>
+</resources>
