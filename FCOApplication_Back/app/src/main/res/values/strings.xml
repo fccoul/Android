@@ -7,4 +7,17 @@
 
     <string name="nameLabel">Name : &#160;</string>
     <string name="phoneLabel">Phone : &#160;</string>
+
+    <string-array name="spinnerColors">
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/plus"
             android:drawablePadding="5dp"/>
-        -->
+        
 
         <TextView
             android:layout_width="wrap_content"
@@ -80,6 +80,61 @@
             android:inputType="textPassword"
             android:imeOptions="actionSend"/>
 
+
+        <TextView android:id="@+id/chkText"
+            android:text="exemple checkbox android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox android:id="@+id/chkGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Text"
+            android:onClick="CheckBoxClicked"/>
+
+        <CheckBox android:id="@+id/chkBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bold Text"
+            android:onClick="CheckBoxClicked"
+            />
+
+        <CheckBox android:id="@+id/chkBig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big Text"
+            android:onClick="CheckBoxClicked"
+            />
+          -->
+        <TextView android:id="@+id/txtRdb"
+            android:text="radio button android !"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup android:id="@+id/rdGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/rdbSans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sans Serif"
+                android:onClick="radioButtonClicked"/>
+
+            <RadioButton android:id="@+id/rdbSerif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serif"
+                android:onClick="radioButtonClicked"/>
+
+            <RadioButton android:id="@+id/rdbMonoSpace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monospace"
+                android:onClick="radioButtonClicked"/>
+
+        </RadioGroup>
     </LinearLayout>
 
 
