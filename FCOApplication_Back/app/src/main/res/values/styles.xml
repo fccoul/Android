@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ThemeFCO" parent="Theme.AppCompat.Light">
+        <!-- Set AppCompat's color theming attrs -->
+        <item name="colorPrimary">@color/my_color</item>
+        <item name="colorPrimaryDark">@color/my_darkercolor</item>
+        <item name="colorAccent">@color/mycolorAccent</item>
+
+    </style>
+
 </resources>

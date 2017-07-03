@@ -9,7 +9,7 @@
 
     >
 
-  <!--
+<!--
      <fragment android:name="com.example.fhcoulibaly.fcoapplication_back.HomeFragment"
          android:id="@+id/HomeFragment"
          android:layout_width="match_parent"
